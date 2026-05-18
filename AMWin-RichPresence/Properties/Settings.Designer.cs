@@ -310,5 +310,29 @@ namespace AMWin_RichPresence.Properties {
                 this["Language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ShowRPSongButton {
+            get {
+                return ((bool)(this["ShowRPSongButton"]));
+            }
+            set {
+                this["ShowRPSongButton"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ShowRPArtistButton {
+            get {
+                return ((bool)(this["ShowRPArtistButton"]));
+            }
+            set {
+                this["ShowRPArtistButton"] = value;
+            }
+        }
     }
 }

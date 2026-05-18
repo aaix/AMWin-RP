@@ -144,6 +144,12 @@
   <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
     <value>Durumda Apple Music ikonunu göster</value>
   </data>
+  <data name="Settings_Discord_ShowSongButton" xml:space="preserve">
+    <value>Apple Music'de Dinle düğmesini göster</value>
+  </data>
+  <data name="Settings_Discord_ShowArtistButton" xml:space="preserve">
+    <value>Sanatçıyı Görüntüle düğmesini göster</value>
+  </data>
   <data name="Settings_Discord_ShowAlbumTitle" xml:space="preserve">
     <value>[Translate]</value>
   </data>

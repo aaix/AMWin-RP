@@ -62,6 +62,14 @@ namespace AMWin_RichPresence {
             SaveSettings();
         }
 
+        private void CheckBox_ShowRPSongButton_Click(object sender, RoutedEventArgs e) {
+            SaveSettings();
+        }
+
+        private void CheckBox_ShowRPArtistButton_Click(object sender, RoutedEventArgs e) {
+            SaveSettings();
+        }
+
         private void InitializeLanguageSelector() {
             TextBlock_LanguageLabel.Text = GetLocalisedString("Settings_General_Language", "Language");
             TextBlock_LanguageDescription.Text = GetLocalisedString("Settings_General_Language_Description", "Restart the app after changing the language.");

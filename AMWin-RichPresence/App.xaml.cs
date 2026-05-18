@@ -1,4 +1,4 @@
-﻿﻿using Hardcodet.Wpf.TaskbarNotification;
+﻿using Hardcodet.Wpf.TaskbarNotification;
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -146,7 +146,9 @@ namespace AMWin_RichPresence {
                         discordClient.SetPresence(newInfo,
                             AMWin_RichPresence.Properties.Settings.Default.ShowAppleMusicIcon,
                             AMWin_RichPresence.Properties.Settings.Default.EnableRPCoverImages,
-                            AMWin_RichPresence.Properties.Settings.Default.ShowAlbumTitle);
+                            AMWin_RichPresence.Properties.Settings.Default.ShowAlbumTitle,
+                            AMWin_RichPresence.Properties.Settings.Default.ShowRPSongButton,
+                            AMWin_RichPresence.Properties.Settings.Default.ShowRPArtistButton);
                     } else {
                         discordClient.Disable();
                     }

@@ -147,6 +147,12 @@
   <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
     <value>Show Apple Music icon</value>
   </data>
+  <data name="Settings_Discord_ShowSongButton" xml:space="preserve">
+    <value>Show Listen on Apple Music button</value>
+  </data>
+  <data name="Settings_Discord_ShowArtistButton" xml:space="preserve">
+    <value>Show View Artist button</value>
+  </data>
   <data name="Settings_Discord_UserStatusDisplay" xml:space="preserve">
     <value>Show Discord status as</value>
   </data>

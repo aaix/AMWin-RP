@@ -147,6 +147,12 @@
   <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
     <value>Apple Musicアイコンを表示</value>
   </data>
+  <data name="Settings_Discord_ShowSongButton" xml:space="preserve">
+    <value>Apple Musicで聴くボタンを表示</value>
+  </data>
+  <data name="Settings_Discord_ShowArtistButton" xml:space="preserve">
+    <value>アーティストを表示ボタンを表示</value>
+  </data>
   <data name="Settings_Discord_UserStatusDisplay" xml:space="preserve">
     <value>Discordステータスの表示内容</value>
   </data>

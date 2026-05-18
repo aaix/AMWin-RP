@@ -147,6 +147,12 @@
   <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
     <value>Apple Music 아이콘 표시</value>
   </data>
+  <data name="Settings_Discord_ShowSongButton" xml:space="preserve">
+    <value>Apple Music에서 듣기 버튼 표시</value>
+  </data>
+  <data name="Settings_Discord_ShowArtistButton" xml:space="preserve">
+    <value>아티스트 보기 버튼 표시</value>
+  </data>
   <data name="Settings_Discord_UserStatusDisplay" xml:space="preserve">
     <value>Discord 상태 표시 방식</value>
   </data>

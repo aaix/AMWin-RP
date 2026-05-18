@@ -147,6 +147,12 @@
   <data name="Settings_Discord_ShowAppleMusicIcon" xml:space="preserve">
     <value>Apple Music-Icon anzeigen</value>
   </data>
+  <data name="Settings_Discord_ShowSongButton" xml:space="preserve">
+    <value>Schaltfläche „In Apple Music anhören“ anzeigen</value>
+  </data>
+  <data name="Settings_Discord_ShowArtistButton" xml:space="preserve">
+    <value>Schaltfläche „Interpret ansehen“ anzeigen</value>
+  </data>
   <data name="Settings_Discord_UserStatusDisplay" xml:space="preserve">
     <value>Discord-Status anzeigen als</value>
   </data>

@@ -358,6 +358,24 @@ namespace AMWin_RichPresence.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show Listen on Apple Music button.
+        /// </summary>
+        public static string Settings_Discord_ShowSongButton {
+            get {
+                return ResourceManager.GetString("Settings_Discord_ShowSongButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show View Artist button.
+        /// </summary>
+        public static string Settings_Discord_ShowArtistButton {
+            get {
+                return ResourceManager.GetString("Settings_Discord_ShowArtistButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show when music is paused.
         /// </summary>
         public static string Settings_Discord_ShowWhenPaused {

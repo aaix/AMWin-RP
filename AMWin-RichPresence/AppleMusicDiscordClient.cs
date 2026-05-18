@@ -51,7 +51,7 @@ internal class AppleMusicDiscordClient {
         }
     }
 
-    public void SetPresence(AppleMusicInfo amInfo, bool showSmallImage, bool showBigImage, bool showAlbumTitle) {
+    public void SetPresence(AppleMusicInfo amInfo, bool showSmallImage, bool showBigImage, bool showAlbumTitle, bool showSongButton, bool showArtistButton) {
         if (!enabled) {
             return;
         }
@@ -113,14 +113,14 @@ internal class AppleMusicDiscordClient {
 
             var buttons = new List<Button>();
 
-            if (amInfo.SongUrl != null) {
+            if (showSongButton && amInfo.SongUrl != null) {
                 buttons.Add(new Button() {
                     Label = Localisation.DiscordButton_ListenOnAppleMusic,
                     Url = amInfo.SongUrl
                 });
             }
 
-            if (amInfo.ArtistUrl != null) {
+            if (showArtistButton && amInfo.ArtistUrl != null) {
                 buttons.Add(new Button() {
                     Label = Localisation.DiscordButton_ViewArtist,
                     Url = amInfo.ArtistUrl

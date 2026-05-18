@@ -378,7 +378,7 @@ namespace AMWin_RichPresence {
             // Get music url
             // ------------------------------------------------
 
-            if (currentSong.SongUrl == null && webReqFails.SongUrl < webReqFails.MaxFails) {
+            if (AMWin_RichPresence.Properties.Settings.Default.ShowRPSongButton && currentSong.SongUrl == null && webReqFails.SongUrl < webReqFails.MaxFails) {
                 var result = await webScraper.GetSongUrl();
                 if (result == null) {
                     webReqFails.SongUrl++;
@@ -395,7 +395,7 @@ namespace AMWin_RichPresence {
             // Get artist url
             // ------------------------------------------------
 
-            if (currentSong.ArtistUrl == null && webReqFails.ArtistUrl < webReqFails.MaxFails) {
+            if (AMWin_RichPresence.Properties.Settings.Default.ShowRPArtistButton && currentSong.ArtistUrl == null && webReqFails.ArtistUrl < webReqFails.MaxFails) {
                 var result = await webScraper.GetArtistUrl();
                 if (result == null) {
                     webReqFails.ArtistUrl++;
